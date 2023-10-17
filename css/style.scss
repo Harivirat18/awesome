@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,Helvetica,sans-serif!important;
+}
+
+body{
+    height: 100%;
+}
+
+section{
+    display: flex;
+    .content-left{
+        width: 30%;
+        min-width: 500px;
+        height: 100vh;
+        background: linear-gradient(0deg,#f0fafe,#f8fcff);
+        position: relative;
+            img{
+                padding: 15px 20px;
+            }
+    .back-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        div{
+            width: 60%;
+        }
+        h1{
+            font-size: 38px;
+            margin-bottom: 27px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 17px;
+            color: #224070;
+            margin-bottom: 16px;
+            line-height: 30px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+    .content-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+        line-height: 30px;
+        div{
+            a{
+                background: #fff;
+                border: 1px solid #979797;
+                border-radius: 4px;
+                cursor: pointer;
+                padding: 10px 50px;
+                text-decoration: none;
+                color: black;
+                font-size: 16px;
+                    &:hover{
+                        background-color: #f8f9fb;
+                    }
+                img{
+                    vertical-align: middle;
+                    height: 18px;
+                    width: 18px;
+                    margin-right: 10px;
+                }
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 500;
+                padding-bottom: 20px;
+            }
+            p{
+                color: #555;
+                padding-bottom: 10px;
+    font-size: 13px;
+            }
+            .link{
+                padding-top: 10px;
+                a{
+                    background-color: transparent;
+                    color: #5794ff;
+                    cursor: pointer;
+                    outline: none;
+                    text-decoration: none;
+                    font-size: 14px;
+                    border: none;
+                    padding: 0px;
+                    &:hover{
+                        color: #80b3ff;
+                    }
+                }
+                span{
+                    color: lightgray;
+                    margin: 0px 5px;
+                }
+            }
+        }
+    }
+}
